@@ -20,3 +20,4 @@ You can build a module `dogdoor` and a a user program `bingo` using `Makefile`.
 
 ### bingo
 - `bingo` is a user program that you can deliver the target pid to the module through the proc file `/proc/dogdoor`.
+- BUG : It shows an I/O error message even though it was successfully executed.
