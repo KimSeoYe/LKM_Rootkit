@@ -11,10 +11,7 @@ main (int argc, char * argv[])
 		exit(1) ;
 	}
 
-	char * target_pid =argv[1] ;
-	
-	//printf(">> ") ;
-	//scanf("%d", &target_pid) ;
+	char * target_pid = argv[1] ;
 
 	char command[128] ;
 	sprintf(command, "echo \"%s\" > /proc/dogdoor", target_pid) ;
